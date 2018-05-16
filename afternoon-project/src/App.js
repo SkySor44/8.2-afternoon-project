@@ -36,6 +36,13 @@ class App extends Component {
           <List data = {['hello', 'run', 'stop', 'goodbye', 'yes']} renderItem = { (words, i, sizeChoice) => <ul style = {sizeChoice} key = {i}>{words}!</ul>} type = 'small'/>
           <List data = {['meat', 'cheese', 'bun', 'lettuce', 'tomato']} renderItem = { (words, i, sizeChoice) => <ul style = {sizeChoice} key = {i}>{words}!</ul>} type = 'large'/>
 
+
+        <div class="demo">
+    <svg class="progress" width="120" height="120" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
+        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
+    </svg>
+</div>
         </div>
        
       </div>
